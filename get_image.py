@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 # Ваш запрос
-prompt = "Космический крейсер в космосе в стиле киберпанк"
+prompt = "Кот рыцарь на коне"
 
 # Генерация изображения
 url = f"https://image.pollinations.ai/prompt/{quote(prompt)}?width=1024&height=1024"
